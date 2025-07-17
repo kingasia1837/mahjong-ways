@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  background: url('assets/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.game-container {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 0 20px #ffd700;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+#spinBtn {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background: gold;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.slot-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 80px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.symbol {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  color: #000;
+  font-size: 2em;
+  line-height: 80px;
+  border-radius: 12px;
+  border: 2px solid #888;
+}
+
+#resultText {
+  margin-top: 15px;
+  font-weight: bold;
+}
